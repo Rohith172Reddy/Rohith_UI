@@ -8,6 +8,8 @@ const myProfile = {
   mastersStream: "Computer Science",
   underGrad: "Anurag Group of Institutions",
   underGradStream: "Electrical and Electronics Engg.",
-}
+};
 
-console.log(myProfile.hobbies[4]);
+
+
+console.log(myProfile.hobbies[myProfile.hobbies.length-1]);
