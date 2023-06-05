@@ -1,5 +1,5 @@
-let environment = "stage";
-let sendingAmount = 100;
+var environment = "stage";
+var sendingAmount = 100;
 
 if (environment === "dev") {
   sendingAmount += sendingAmount * 0.1;
