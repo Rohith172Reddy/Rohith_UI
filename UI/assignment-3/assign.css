@@ -1,0 +1,108 @@
+.one {
+    color: blue;
+}
+
+.highlight {
+    color: aqua;
+    background-color: violet;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul li:last-child {
+    color: yellowgreen;
+    font-size: larger;
+}
+
+a.external {
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+}
+
+.high {
+    margin: 20px;
+}
+
+article {
+    padding: 10px;
+}
+
+.box {
+    width: 200px;
+    height: 150px;
+    background-color: aquamarine;
+}
+
+img {
+    border: 2px solid rgba(59, 108, 4, 0.797);
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: square;
+    font-size: 25px;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ul {
+    list-style-type: none;
+}
+
+table,th,td {
+    background-color: blueviolet;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+table td:first-child {
+    width: 100px;
+}
+
+.elemen {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: aquamarine;
+}
+
+.ele {
+    position: absolute;
+    background-color: blue;
+    left: 0;
+    right: 0;
+    width: 125px;
+    height: 125px;
+}
+
+.container {
+    position: relative;
+    height: 200px; /* Example container height */
+    width: 200px; /* Example container width */
+  }
+  
+  .element {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .element1 {
+    top: 0;
+  }
+  
+  .element2 {
+    top: 50px;
+  }
+  
+  
+  
